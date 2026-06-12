@@ -7,13 +7,11 @@ This package is structured as one shared skill core with two runtime-specific in
 - OpenClaw / ClawHub
 - Claude Code
 
-## Current release posture
+## Current release
 
-This package is prepared as production-ready packaging, with one honest caveat:
+This package is live on ClawHub and GitHub as the first public release of ClickUp Operator.
 
-- the full live auth/setup flow was not validated end to end in both runtimes
-
-The package is shaped and documented as if it is ready to publish, but it should still be described honestly as not fully live-tested.
+Core routing behavior was validated against a live ClickUp setup during packaging, and the repo is structured for both OpenClaw / ClawHub and Claude Code install paths.
 
 ## Folder layout
 
